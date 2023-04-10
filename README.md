@@ -149,31 +149,31 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
 
 ### To receive all points, you must
 
-    * Design a query that correctly finds the number of stations in the dataset (9) (2 points)
+ * Design a query that correctly finds the number of stations in the dataset (9) (2 points)
+    
+ * Design a query that correctly lists the stations and observation counts in descending order and finds the most active station (USC00519281) (2 points)
 
-    * Design a query that correctly lists the stations and observation counts in descending order and finds the most active station (USC00519281) (2 points)
+ * Design a query that correctly finds the min, max, and average temperatures for the most active station (USC00519281) (3 points)
 
-    * Design a query that correctly finds the min, max, and average temperatures for the most active station (USC00519281) (3 points)
+ * Design a query to get the previous 12 months of temperature observation (TOBS) data that filters by the station that has the greatest number of observations (3   points)
 
-    * Design a query to get the previous 12 months of temperature observation (TOBS) data that filters by the station that has the greatest number of observations (3   points)
+  * Save the query results to a Pandas DataFrame (2 points)
 
-    * Save the query results to a Pandas DataFrame (2 points)
-
-    * Correctly plot a histogram with `bins=12` for the last year of data using `tobs` as the column to count. (4 points)
+  * Correctly plot a histogram with `bins=12` for the last year of data using `tobs` as the column to count. (4 points)
 
 ## API SQLite Connection & Landing Page (10 points)
 
 ### To receive all points, your Flask application must
 
-    * Correctly generate the engine to the correct sqlite file (2 points)
+  * Correctly generate the engine to the correct sqlite file (2 points)
 
-    * Use automap_base() and reflect the database schema (2 points)
+  * Use automap_base() and reflect the database schema (2 points)
 
-    * Correctly save references to the tables in the sqlite file (measurement and station) (2 points)
+  * Correctly save references to the tables in the sqlite file (measurement and station) (2 points)
 
-    * Correctly create and binds the session between the python app and database (2 points)
+  * Correctly create and binds the session between the python app and database (2 points)
 
-    * Display the available routes on the landing page (2 points)
+  * Display the available routes on the landing page (2 points)
 
 ## API Static Routes (15 points)
 
