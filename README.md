@@ -180,18 +180,18 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
 ### To receive all points, your Flask application must include
 A precipitation route that:
 
-   * Returns json with the date as the key and the value as the precipitation (3 points)
+  * Returns json with the date as the key and the value as the precipitation (3 points)
 
-   * Only returns the jsonified precipitation data for the last year in the database (3 points)
+  * Only returns the jsonified precipitation data for the last year in the database (3 points)
 
 A stations route that:
 
-    * Returns jsonified data of all of the stations in the database (3 points)
+  * Returns jsonified data of all of the stations in the database (3 points)
 A tobs route that:
 
-    * Returns jsonified data for the most active station (USC00519281) (3 points)
+  * Returns jsonified data for the most active station (USC00519281) (3 points)
 
-    * Only returns the jsonified data for the last year of data (3 points)
+  * Only returns the jsonified data for the last year of data (3 points)
 
 ## API Dynamic Route (15 points)
 
@@ -199,39 +199,39 @@ A tobs route that:
 
 A start route that:
 
-   * Accepts the start date as a parameter from the URL (2 points)
+  * Accepts the start date as a parameter from the URL (2 points)
 
-   * Returns the min, max, and average temperatures calculated from the given start date to the end of the dataset (4 points)
+  * Returns the min, max, and average temperatures calculated from the given start date to the end of the dataset (4 points)
 
 A start/end route that:
 
-   * Accepts the start and end dates as parameters from the URL (3 points)
+  * Accepts the start and end dates as parameters from the URL (3 points)
 
-   * Returns the min, max, and average temperatures calculated from the given start date to the given end date (6 points)
+  * Returns the min, max, and average temperatures calculated from the given start date to the given end date (6 points)
 
 ## Coding Conventions and Formatting (8 points)
 
 ### To receive all points, your code must
 
-   * Place imports at the top of the file, just after any module comments and docstrings, and before module globals and constants. (2 points)
+  * Place imports at the top of the file, just after any module comments and docstrings, and before module globals and constants. (2 points)
 
-   * Name functions and variables with lowercase characters, with words separated by underscores. (2 points)
+  * Name functions and variables with lowercase characters, with words separated by underscores. (2 points)
 
-   * Follow DRY (Don't Repeat Yourself) principles, creating maintainable and reusable code. (2 points)
+  * Follow DRY (Don't Repeat Yourself) principles, creating maintainable and reusable code. (2 points)
 
-   * Use concise logic and creative engineering where possible. (2 points)
+  * Use concise logic and creative engineering where possible. (2 points)
 
 ## Deployment and Submission (6 points)
 
 ### To receive all points, you must
 
-   * Submit a link to a GitHub repository that’s cloned to your local machine and contains your files. (2 points)
+  * Submit a link to a GitHub repository that’s cloned to your local machine and contains your files. (2 points)
 
-   * Use the command line to add your files to the repository. (2 points)
-
-   * Include appropriate commit messages in your files. (2 points)
+  * Use the command line to add your files to the repository. (2 points)
+    
+  * Include appropriate commit messages in your files. (2 points)
 
 ## Comments (4 points)
 ### To receive all points, your code must
 
-   * Be well commented with concise, relevant notes that other developers can understand. (4 points)
+  * Be well commented with concise, relevant notes that other developers can understand. (4 points)
