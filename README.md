@@ -133,17 +133,17 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
 
 ### To receive all points, you must
 
-    * Create a query that finds the most recent date in the dataset (8/23/2017) (2 points)
+ * Create a query that finds the most recent date in the dataset (8/23/2017) (2 points)
 
-    * Create a query that collects only the `date` and `precipitation` for the last year of data without passing the date as a variable (4 points)
+ * Create a query that collects only the `date` and `precipitation` for the last year of data without passing the date as a variable (4 points)
 
-    * Save the query results to a Pandas DataFrame to create `date` and `precipitation` columns (2 points)
+ * Save the query results to a Pandas DataFrame to create `date` and `precipitation` columns (2 points)
 
-    * Sort the DataFrame by `date` (2 points)
+ * Sort the DataFrame by `date` (2 points)
 
-    * Plot the results by using the DataFrame `plot` method with `date` as the x and `precipitation` as the y variables (4 points)
+ * Plot the results by using the DataFrame `plot` method with `date` as the x and `precipitation` as the y variables (4 points)
 
-    * Use Pandas to print the summary statistics for the precipitation data (2 points)
+ * Use Pandas to print the summary statistics for the precipitation data (2 points)
 
 ## Station Analysis (16 points)
 
