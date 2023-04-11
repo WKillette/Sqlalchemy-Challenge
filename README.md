@@ -1,4 +1,4 @@
-# Unit 10: sqlalchemy-challenge (SurfsUp)
+# Unit 10: Sqlalchemy-Challenge (SurfsUp)
 ## Before You Begin
 1. Create a new repository for this project called `sqlalchemy-challenge`. Do not add this assignment to an existing repository.
 
